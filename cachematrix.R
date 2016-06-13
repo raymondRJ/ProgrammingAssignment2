@@ -1,3 +1,5 @@
+## The whole function is meant to prevent repetition for calculating a reverse of a matrix, and it is divided into two parts.
+
 ## The first function, makeCacheMatrix creates a special "vector", which is a list containing a function to set and get inverse
 ## by using the built-in function "solve".
 
@@ -16,7 +18,7 @@ m <- NULL
 }
 
 
-## The second function cacheSolve utilized the result from the first function and uses a conditional structure to extract the 
+## The second function cacheSolve utilizes the result from the first function and uses a conditional structure to extract the 
 ## inverse if it is already there or calculate it otherwise.
 
 cacheSolve <- function(x, ...) {
